@@ -8,7 +8,7 @@ For use special modes and get more results from different pages you should have 
 ## Features
 It has three optional search modes:
 
-* COUNTRY: Select a country code at random and add it in query  
+* COUNTRY: Select a random country code and add it in query  
 * DEVICE: Select a random search filter  
 * MIX: Randomly joins the previous two
 
