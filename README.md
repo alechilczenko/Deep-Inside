@@ -27,7 +27,7 @@ Note: Only country mode can be added with your custom search.
 git clone https://github.com/intrackeable/DeepInside.git
 cd DeepInside 
 pip install -r requirements.txt
-python3 DeepInside.py
+python3 DeepInside.py -h
 ```
 
 ## Attention
