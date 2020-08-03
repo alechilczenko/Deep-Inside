@@ -22,6 +22,13 @@ Note: Only country mode can be added with your custom search.
 ./DeepInsde.py -r DEVICE -o SavedFile -w -n 2 
 ```
 ![Screenshot](/Screenshots/screenshot2.png)
+## Installation
+```
+git clone https://github.com/intrackeable/DeepInside.git
+cd DeepInside 
+pip install -r requirements.txt
+python3 DeepInside.py
+```
 
 ## Attention
 Use this tool only with educational purposes and not for evil.
