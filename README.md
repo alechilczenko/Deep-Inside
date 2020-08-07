@@ -19,7 +19,7 @@ Note: Only country mode can be added with your custom search.
 ./DeepInside.py -t 'FTP country:US' -o SavedFile
 ./DeepInside.py -t 'FTP' -r COUNTRY -o SavedFile -w
 ./DeepInside.py -r MIX -o SavedFile -w
-./DeepInside.py -r DEVICE -o SavedFile -w -n 2 
+./DeepInside.py -r DEVICE -o SavedFile -w -n 2 -l 300
 ```
 ![Screenshot](/Screenshots/screenshot2.png)
 ## Installation
