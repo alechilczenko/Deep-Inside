@@ -1,3 +1,4 @@
 shodan
 argparse
 colorama
+pyfiglet
