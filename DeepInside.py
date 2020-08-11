@@ -1,13 +1,14 @@
 #!/usr/bin/env python3
-#github.com/intrackeable/DeepInside
+#Author: Intrackeable
+#Github: https://github.com/intrackeable
 try:
-    import os, time, argparse, webbrowser
+    import os, time, argparse, webbrowser, pyfiglet
     from shodan import Shodan
     from colorama import Fore, Style
     from random import choice
 
 except ImportError:
-    print(Fore.RED + 'Use pip install -r requirements.txt')
+    print('Use pip install -r requirements.txt')
     CloseProgram()
 
 #COLORS
@@ -15,11 +16,12 @@ class colors:
     red = Fore.RED + Style.BRIGHT
     green = Fore.LIGHTGREEN_EX
     cyan = Fore.CYAN + Style.BRIGHT
+    reset = Style.RESET_ALL
 
 c = colors()
 
 global api
-api = '' #Insert your API KEY here
+api = 'PSKINdQe1GyxGgecYz2191H2JoS9qvgD' #Insert your API KEY here
 
 def CloseProgram():
     print(c.red + '[SYSTEM EXIT]')
@@ -77,10 +79,13 @@ def ReportHtml(html,output): #In case of adding the html argument, check if file
         if os.path.exists(output):
             os.rename(output,output + '.html')
             option = input(c.cyan + 'Open HTML report in browser ? (YES/NO) ')
-            if option == 'YES' or option == 'yes':
+            if option.upper() == 'YES':
                 url = os.getcwd()
                 location = 'file://' + url + '/' + output + '.html'
                 webbrowser.open_new_tab(location)
+    else:
+        if not output.endswith('.txt'):
+            os.rename(output,output + '.txt')
 
 def GetRandomCountry(): #Select a random country code from codes.txt file
     if os.path.exists('codes.txt'):
@@ -156,8 +161,10 @@ def SaveFile(ip,port,org,product,os,country,city,output,html):
         
 def ShowBanner():
     os.system('clear')
-    os.system('cat logo.txt')  
-    print(c.green + 'Created with love by intrackeable \n')
+    logo = pyfiglet.figlet_format('DeepInside', font='slant')
+    print(c.red + logo)
+    print(c.reset)
+    print(c.green + 'Created with love by Intrackeable \n')
     
 def main():
     ShowBanner()
