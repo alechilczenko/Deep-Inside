@@ -1,6 +1,6 @@
 # Deep Inside 👁
 
-Deep Inside is a command line tool designed in Python3 that allows you to explore IoT devices by using Shodan search engine, with multiple options.  
+Deep Inside is a command line tool designed in Python that allows you to explore IoT devices by using Shodan search engine, with multiple options.  
 For use special modes and get more results from different pages you should have a pay API key.
 
 ![Screenshot](/Screenshots/screenshot.png)
@@ -19,7 +19,7 @@ Note: Only country mode can be added with your custom search.
 ./DeepInside.py -t 'FTP country:US' -o SavedFile
 ./DeepInside.py -t 'FTP' -r COUNTRY -o SavedFile -w
 ./DeepInside.py -r MIX -o SavedFile -w
-./DeepInside.py -r DEVICE -o SavedFile -w -n 2 
+./DeepInside.py -r DEVICE -o SavedFile -w -n 2 -l 300
 ```
 ![Screenshot](/Screenshots/screenshot2.png)
 ## Installation
