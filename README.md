@@ -3,7 +3,7 @@
 Deep Inside is a command line tool designed in Python that allows you to explore IoT devices by using Shodan search engine, with multiple options.  
 For use special modes and get more results from different pages you should have a pay API key.
 
-![Screenshot](/Screenshots/screenshot.png)
+![Screenshot](/Screenshots/screen.png)
 
 ## Features
 It has three optional search modes:
