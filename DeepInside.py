@@ -21,7 +21,7 @@ class colors:
 c = colors()
 
 global api
-api = 'PSKINdQe1GyxGgecYz2191H2JoS9qvgD' #Insert your API KEY here
+api = '' #Insert your API KEY here
 
 def CloseProgram():
     print(c.red + '[SYSTEM EXIT]')
