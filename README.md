@@ -12,7 +12,7 @@ For use special modes and get more results from different pages you should have 
 - [x] Search by page and set quantity of results.
 - [x] Save data as HTML report and display results directly in browser.
 
-## Search modes explained
+## Random modes explained
 It has three optional search modes:
 
 * COUNTRY: Select a random country code and add it in query  
