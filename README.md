@@ -23,10 +23,10 @@ Note: Only country mode can be added with your custom search.
 
 ## Examples of usage
 ```text
-./DeepInside.py -t 'FTP country:US' -o SavedFile
-./DeepInside.py -t 'FTP' -r COUNTRY -o SavedFile -w
-./DeepInside.py -r MIX -o SavedFile -w
-./DeepInside.py -r DEVICE -o SavedFile -w -n 2 -l 300
+DeepInside.py -t 'FTP country:US' -o SavedFile
+DeepInside.py -t 'FTP' -r COUNTRY -o SavedFile -w
+DeepInside.py -r MIX -o SavedFile -w
+DeepInside.py -r DEVICE -o SavedFile -w -n 2 -l 300
 ```
 ![Screenshot](/Screenshots/screenshot2.png)
 ## Installation
