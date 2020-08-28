@@ -4,6 +4,9 @@ Deep Inside is a command line tool designed in Python that allows you to explore
 
 For use special modes and get more results from different pages you should have a pay API key.
 
+![Screenshot](https://img.shields.io/badge/Platform-Linux-brightgreen)
+![Screenshot](https://img.shields.io/badge/License-GPL-red)
+![Screenshot](https://img.shields.io/badge/Language-Python%203-blue)
 ![Screenshot](/Screenshots/screen.png)
 
 ## Features
