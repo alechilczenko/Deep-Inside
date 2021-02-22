@@ -67,7 +67,6 @@ def shodan_search(page_number,results,simple,target):
         exit()
 
 def main():
-    os.system('clear')
     display_banner()
     random_code,page_number,results,simple = options()
     print(green + 'PLEASE USE [-h] TO SEE ALL OPTIONS')
