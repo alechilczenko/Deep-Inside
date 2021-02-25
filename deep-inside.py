@@ -57,7 +57,7 @@ def shodan_search(page_number,results,simple,target):
         for device in query['matches']:
             time.sleep(0.2)
             if simple:
-                collected_data = '{}:{}'.format(device.get('ip_str','None'),device.get('port','None'))
+                collected_data = '{}:{}\n'.format(device.get('ip_str','None'),device.get('port','None'))
             else:
                 collected_data = 'http://{}:{} Org: {} Product: {} OS: {} Country: {}\n'.format(device.get('ip_str','None'),device.get('port','None'),device.get('org','None'),device.get('product','None'),device.get('os','None'),device['location']['country_name'] or 'None')
             save_in_file(collected_data,current_time)
