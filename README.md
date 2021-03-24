@@ -18,7 +18,7 @@ For use special modes and get more results from different pages you should have 
 - [ ] Save data as HTML report.  
 
 ## Examples of usage
-```text
+```python
 python3 deep-inside.py
 python3 deep-inside.py -R -L 500 -P 2
 python3 deep-inside.py -R -S
