@@ -23,6 +23,7 @@ python3 deep-inside.py
 python3 deep-inside.py -R -L 500 -P 2
 python3 deep-inside.py -R -S
 ```
+![Screenshot](/Screenshots/screen1.png)
 ## Installation
 ```
 git clone https://github.com/intrackeable/DeepInside.git
