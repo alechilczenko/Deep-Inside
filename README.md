@@ -33,7 +33,7 @@ python3 deep-inside.py -h
 ```
 
 ## Attention
-Use this tool only with educational purposes and not for evil.
+This project was created for educational purposes and should not be used in environments without legal authorization.
 ## References
  * [Shodan](https://www.shodan.io/)
  * [The official Python library for the Shodan search engine](https://shodan.readthedocs.io/en/latest/)
