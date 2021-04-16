@@ -15,7 +15,6 @@ For use special modes and get more results from different pages you should have 
 - [x] Search by page and set quantity of results.
 - [x] Automatically save data with current time.
 - [x] Easy to see results from terminal directly in browser. (Recommended for HTTP ports)
-- [ ] Save data as HTML report.  
 
 ## Examples of usage
 ```python
